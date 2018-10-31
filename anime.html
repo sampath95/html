@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ever</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='style.css' rel='stylesheet' type="text/css">
+        <link href='geo.css' rel='stylesheet' type="text/css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js">
+        <script src="script.js">
+        </script>
+    </head>
+
+<body>
+
+
+//navigation bar...lyt tesko
+        <nav>
+            <div class="logo">
+            <img src="ever.png" alt="" width="130px" height="60px" class="logo-img">
+     
+            <ul>
+                <li><a href="#">Concept</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a class="active" href="#">Réserver Mon Shooting</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        
+//ikkada cities blocks vachi closest edo ah container loki velli migathavi konchm blur type avvali            
+   
+<div id='potrait'>
+        <div id='cities'>
+
+               <h1>Où voulez-vous réaliser votre portrait ?</h1> 
+               <div id="container">
+                    <div id="left"><h1>PARIS</h1></div>
+                    <div id="middle"><h1>lyon</h1></div>
+                    <div id="right"><h1>MARSEILLE</h1></div>
+                </div>
+        </div>
+
+    </div>
+
+//idhi ikkada button click cheste latitute longitude vastai;.. efunction urke petta ikkada
+    <p>Get your closest city</p>
+    <button onclick="getLocation()">Try It</button>
+    <p id="demo"></p>
+
+// deeni tarwata highlight aina container(city) lo weather batti konchm css add cheyali
+
+
+//newsletter add cheyali last ki
+</body>
+</html>
